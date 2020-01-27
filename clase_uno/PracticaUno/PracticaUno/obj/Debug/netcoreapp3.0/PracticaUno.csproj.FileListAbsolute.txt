@@ -1,0 +1,11 @@
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.exe
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.deps.json
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.runtimeconfig.json
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.runtimeconfig.dev.json
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.dll
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\bin\Debug\netcoreapp3.0\PracticaUno.pdb
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\obj\Debug\netcoreapp3.0\PracticaUno.csprojAssemblyReference.cache
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\obj\Debug\netcoreapp3.0\PracticaUno.AssemblyInfoInputs.cache
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\obj\Debug\netcoreapp3.0\PracticaUno.AssemblyInfo.cs
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\obj\Debug\netcoreapp3.0\PracticaUno.dll
+C:\Users\alumno\source\repos\clase\clase_uno\PracticaUno\PracticaUno\obj\Debug\netcoreapp3.0\PracticaUno.pdb

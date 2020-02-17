@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaUno/PracticaUno.csproj": {}
+    "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/MenuApp/MenuApp.csproj": {}
   },
   "projects": {
-    "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaUno/PracticaUno.csproj": {
+    "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/MenuApp/MenuApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaUno/PracticaUno.csproj",
-        "projectName": "PracticaUno",
-        "projectPath": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaUno/PracticaUno.csproj",
+        "projectUniqueName": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/MenuApp/MenuApp.csproj",
+        "projectName": "MenuApp",
+        "projectPath": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/MenuApp/MenuApp.csproj",
         "packagesPath": "/Users/jrsaucedo/.nuget/packages/",
-        "outputPath": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaUno/obj/",
+        "outputPath": "/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/MenuApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jrsaucedo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -34,7 +34,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -45,20 +45,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[3.0.2, 3.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

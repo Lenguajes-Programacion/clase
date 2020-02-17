@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A11DCC72-13EB-49D7-80C8-CABED38BE310}|Default">
+  <MonoDevelop.Ide.ItemProperties.MenuApp FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.PracticaUno PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PracticaDos/Program.cs">
+    <Files>
+      <File FileName="PracticaDos/Program.cs" Line="7" Column="9" />
+      <File FileName="PracticaUno/Program.cs" Line="24" Column="6" />
+      <File FileName="MenuApp/Program.cs" Line="1" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PracticaUno" expanded="True">
+            <Node name="MenuApp" expanded="True" />
+            <Node name="PracticaDos" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="PracticaUno" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

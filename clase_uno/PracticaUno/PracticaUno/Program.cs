@@ -2,7 +2,7 @@
 
 namespace PracticaUno
 {
-    class Program
+    public class HelloWorld
     {
         //Variable de la clase.
         static string nombre = "Roberto";

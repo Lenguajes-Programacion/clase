@@ -2,7 +2,7 @@
 
 namespace PracticaDos
 {
-    class Program
+    class Calculadora
     {
         static void Main(string[] args)
         {

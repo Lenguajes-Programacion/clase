@@ -23,9 +23,11 @@ namespace PracticaDos
             {
                 // Iteración individual de cada grupo de datos del objeto json.
                 Console.WriteLine("Dato en memoria:");
-                MemoriaData memoriaData = new MemoriaData(DateTime.Now, item.Value["operacion"].ToString(),(int) item.Value["resultado"]);
-                Console.WriteLine(item.Key.ToString());
+                MemoriaData memoriaData = new MemoriaData(item.Key.ToString(), item.Value["operacion"].ToString(),item.Value["resultado"].ToString());
+                Console.WriteLine("{0} - {1}", memoriaData.fecha.ToLongDateString(),
+                memoriaData.fecha.ToLongTimeString());
                 Console.WriteLine(memoriaData.resultado.ToString());
+                Console.WriteLine("----------------- \n");
             }
         }
     }
@@ -35,11 +37,11 @@ namespace PracticaDos
         public String operacion;
         public int resultado;
 
-        public MemoriaData(DateTime date, String operation, int result)
+        public MemoriaData(String date, String operation, String result)
         {
-            fecha = date;
+            fecha = DateTime.Parse(date);
             operacion = operation;
-            resultado = result;
+            resultado = int.Parse(result);
         }
     }
 

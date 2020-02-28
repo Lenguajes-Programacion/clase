@@ -65,11 +65,16 @@ namespace PracticaDos
                         Console.WriteLine("-----------------\n");
                         Memoria memoria = new Memoria();
                         memoria.LeerMemoria();
+                        String key = Console.ReadLine();
+                        //Console.WriteLine(data.ToString());
                         // Elegir la opcion de resultado en nuestra memoria 
                         // y reutilizarla en alguna operación.
                         // 1. Crear metodo que nos regrese el resultado seleccionado.
+                        int resultado = memoria.GetMemoriaData(key);
                         // 2. Utilizar el resultado en una nueva operación.
+                        Console.WriteLine(resultado);
                         // 3. Guardar la nueva operación en nuestra db.json.
+                        memoria.GuardarMemoria();
                         break;
                     case "e":
                         Console.WriteLine("-----------------\n");

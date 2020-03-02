@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -31,7 +32,7 @@ namespace PracticaDos
             foreach (var item  in dbObject)
             {
                 // Iteración individual de cada grupo de datos del objeto json.
-                MemoriaData memoriaData = new MemoriaData(i,item.Key.ToString(), item.Value["operacion"].ToString(),item.Value["resultado"].ToString());
+                MemoriaData memoriaData = new MemoriaData(item.Key.ToString(), item.Value["operacion"].ToString(),item.Value["resultado"].ToString());
                 this.db.Add(memoriaData);
                 Console.WriteLine("Dato en memoria: ({0})", i);
                 Console.BackgroundColor = ConsoleColor.Green;
@@ -65,21 +66,37 @@ namespace PracticaDos
             // return (int)data["resultado"];
             return data.resultado;
         }
-        public void GuardarMemoria()
+        public void GuardarMemoria(MemoriaData data)
         {
-
+            db.Add(data);
+            int i = 0;
+            db.ForEach((MemoriaData memoriaData) =>
+            {
+                Console.WriteLine("Dato en memoria: ({0})", i);
+                Console.BackgroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} - {1}", memoriaData.fecha.ToLongDateString(),
+                memoriaData.fecha.ToLongTimeString());
+                Console.ResetColor();
+                Console.WriteLine("Operación: {0}", memoriaData.operacion);
+                Console.WriteLine("Resultado: {0}", memoriaData.resultado.ToString());
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("----------------- \n");
+                Console.ForegroundColor = ConsoleColor.White;
+                i++;
+            });
+            string json = JsonConvert.SerializeObject(db.ToArray(), Formatting.Indented);
+            string archivoDB = "../../../db.json";
+            File.WriteAllText(archivoDB, json);
         }
     }
     class MemoriaData
     {
-        public int key;
         public DateTime fecha;
         public String operacion;
         public int resultado;
 
-        public MemoriaData(int i, String date, String operation, String result)
+        public MemoriaData( String date, String operation, String result)
         {
-            key = i;
             fecha = DateTime.Parse(date);
             operacion = operation;
             resultado = int.Parse(result);

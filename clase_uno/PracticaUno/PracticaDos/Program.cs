@@ -75,7 +75,7 @@ namespace PracticaDos
                     case "m":
                         Console.WriteLine("Accediendo a Memoria \n");
                         Console.WriteLine("-----------------\n");
-                        memoria.LeerMemoria();
+                        memoria.multidimensional();
                         String key = Console.ReadLine();
                         //Console.WriteLine(data.ToString());
                         // Elegir la opcion de resultado en nuestra memoria 

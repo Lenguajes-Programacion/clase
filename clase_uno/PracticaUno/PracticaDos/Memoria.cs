@@ -88,6 +88,30 @@ namespace PracticaDos
             string archivoDB = "../../../db.json";
             File.WriteAllText(archivoDB, json);
         }
+        public void arreglo()
+        {
+            string[] Colores = { "Rojo", "Blanco", "Morado" };
+            //List<string> colores = ["Rojo", "Blanco", "Morado"];
+            //colores.Sort();
+            Array.Reverse(Colores);
+            Array.ForEach(Colores, (item)=>{
+                Console.WriteLine(item);
+            });
+            String color = Array.Find(Colores, (item) => {
+                return item.Length > 4;
+            });
+            Console.WriteLine(color);
+            Console.WriteLine("Accede tus colores y separalos con comas(,):");
+            String colorUser = Console.ReadLine();
+            // Un string se puede convertir en arreglo con su propiedad Split, dándole el patron.
+            string[] newColors = colorUser.Split(' ');
+            Console.WriteLine(newColors);
+        }
+        public void multidimensional()
+        {
+            int[,,] array = new int[4, 2,3];
+            Console.WriteLine(array);
+        }
     }
     class MemoriaData
     {

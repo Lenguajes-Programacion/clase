@@ -4,7 +4,9 @@ namespace PracticaDos
 {
     class Calculadora
     {
-        static void Main(string[] args)
+        // 
+        //static void Main(string[] args)
+        static void Calc(string[] args)
         {
             Memoria memoria = new Memoria();
             Console.WriteLine("CalculApp");
@@ -75,7 +77,7 @@ namespace PracticaDos
                     case "m":
                         Console.WriteLine("Accediendo a Memoria \n");
                         Console.WriteLine("-----------------\n");
-                        memoria.multidimensional();
+                        //memoria.multidimensional();
                         String key = Console.ReadLine();
                         //Console.WriteLine(data.ToString());
                         // Elegir la opcion de resultado en nuestra memoria 

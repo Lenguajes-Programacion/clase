@@ -1,11 +1,10 @@
-﻿<Properties StartupConfiguration="{A11DCC72-13EB-49D7-80C8-CABED38BE310}|Default">
+﻿<Properties StartupConfiguration="{F434DE04-2E94-4C17-BF34-3CDF1D162FBB}|Default">
   <MonoDevelop.Ide.ItemProperties.MenuApp FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.PracticaUno PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PracticaDos/Program.cs">
     <Files>
-      <File FileName="PracticaDos/Program.cs" Line="7" Column="9" />
-      <File FileName="PracticaUno/Program.cs" Line="24" Column="6" />
-      <File FileName="MenuApp/Program.cs" Line="1" Column="14" />
+      <File FileName="PracticaDos/Program.cs" Line="142" Column="57" />
+      <File FileName="PracticaDos/Memoria.cs" Line="13" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,6 +20,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PracticaDos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,14 @@
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/PracticaDos.deps.json
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/PracticaDos.runtimeconfig.json
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/PracticaDos.runtimeconfig.dev.json
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/PracticaDos.dll
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/PracticaDos.pdb
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.csprojAssemblyReference.cache
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.csproj.CoreCompileInputs.cache
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.AssemblyInfoInputs.cache
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.AssemblyInfo.cs
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.csproj.CopyComplete
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.dll
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.pdb
+/Users/jrsaucedo/Documents/GitHub/lp-clase/clase_uno/PracticaUno/PracticaDos/obj/Debug/netcoreapp3.1/PracticaDos.genruntimeconfig.cache

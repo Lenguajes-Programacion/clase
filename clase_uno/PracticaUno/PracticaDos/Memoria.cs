@@ -109,7 +109,7 @@ namespace PracticaDos
         }
         // Metodo multidimensional
         //public void multidimensional()
-        static void Main(String[] args)
+        static void Arreglos(String[] args)
         {
             bool salir = false;
             while (!salir)

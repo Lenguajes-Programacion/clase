@@ -107,6 +107,9 @@ namespace PracticaDos
     }
     class Calculus
     {
+        public int valor1;
+        public int valor2;
+
         public static int suma(int valor1, int valor2)
         {
             int result = 0;
@@ -130,6 +133,13 @@ namespace PracticaDos
             int result = 0;
             result = valor1 / valor2;
             return result;
+        }
+    }
+
+    class NewCalculus : Calculus
+    {
+        public void potencia(int valor1, int potencia) {
+            // Agregaro calculo de la potencia. Ejemplo: 2^2
         }
     }
 }
